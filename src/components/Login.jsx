@@ -18,8 +18,7 @@ const Login = () => {
  */
     const login = async () => {
         console.log(email, password)
-        localStorage.setItem("email", email)
-        localStorage.setItem("pass", password)
+       
         if (email === 'gerente' && password === "pass123") {
             setUser(true)
             dispatch({
